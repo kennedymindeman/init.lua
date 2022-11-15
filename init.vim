@@ -1,10 +1,14 @@
-call plug#begin('~/AppData/Local/nvim/plugged')
-Plug 'morhetz/gruvbox'
-Plug 'nvim-treesitter/nvim-treesitter'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-call plug#end()
+source ~/AppData/Local/nvim/plugins.vim
+source ~/AppData/Local/nvim/themes.vim
+source ~/AppData/Local/nvim/treesitter.vim
 
-se number relativenumber cursorline cursorlineopt=number
-colorscheme gruvbox
+se scrolloff=10
+se number relativenumber
+se cursorline
+
+se expandtab
+se tabstop=4
+se softtabstop=4
+se shiftwidth=4
+se smartindent
+se copyindent
