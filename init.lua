@@ -1,4 +1,4 @@
 require '_packer'
-require 'settings'
+require '_settings'
 require '_treesitter'
 require '_telescope'
