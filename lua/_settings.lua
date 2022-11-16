@@ -11,6 +11,9 @@ vim.opt.numberwidth = 5
 vim.opt.relativenumber = true
 vim.opt.signcolumn = 'yes'
 
+-- navigation
+vim.opt.scrolloff = 8
+
 -- tab settings
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 4
